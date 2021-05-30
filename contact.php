@@ -3,8 +3,8 @@
 	if (isset($_POST['email'])) {
 
 		// EDIT THE 2 LINES BELOW AS REQUIRED
-		$email_to = "hey@sarozpoddar.com.np";
-		$email_subject = "My offer for [Your Domain]";
+		$email_to = "thanhpole@gmail.com";
+		$email_subject = "My offer for [tinhha.com]";
 
 
 		$name = $_POST['name']; // required
@@ -16,7 +16,7 @@
 
 		$email_message = "Form details below.\n\n";
 
-		function clean_string($string) {
+		function clean_string() {
 				$bad = array("content-type", "bcc:", "to:", "cc:", "href");
 				return str_replace($bad, "", $string);
 		}
@@ -57,25 +57,11 @@
 										</h1>
 										<div class="row d-md-flex text-center justify-content-center text-primary action-icons">
 											<div class="col-sm-4">
-												<p><em class="ion-ios-telephone-outline icon-md"></em></p>
-											</div>
-											<div class="col-sm-4">
 												<p><em class="ion-ios-chatbubble-outline icon-md"></em></p>
-												<p class="lead"><a href="mailto:the.saroz@gmail.com">hey@sarozpoddar.com.np</a></p>
+												<p class="lead"><a href="mailto:thanhpole@gmail.com">thanhpole@gmail.com</a></p>
 											</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-sm-6 offset-sm-6 px-0">
-									<section class="bg-alt">
-											<div class="row height-100">
-													<div class="col-sm-8 offset-sm-2 mt-2">
-														<h1 class="pt-4 h2"><span class="text-green">Saroz Poddar</span></h1>
-														<span class="text-muted">Nepal</span>
-														<p><span>UX/UI Designer & Front-end Developer</span></p>
-													</div>
-											</div>
-									</section>
 							</div>
 					</div>
 				</div>
